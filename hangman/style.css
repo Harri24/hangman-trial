@@ -1,0 +1,119 @@
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+  font-size: 3vw;
+  overflow: hidden;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px
+}
+
+
+.blue-box {
+   background-color: lightblue;
+   padding: 60px 50px;
+   margin: auto;
+   border-radius: 30px;
+   text-align: center;
+   border: 15px solid pink;
+   width: 40%;
+   height: 40%;
+ }
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   text-decoration: underline;
+   color: black;
+ }
+
+ li {
+   display: inline;
+   float: left;
+ }
+
+ a {
+   display: block;
+   padding: 10px;
+   color: black;
+   text-underline-position: under;
+ }
+
+ a:hover {
+   color: purple;
+ }
+
+ .pink-box {
+   background-color: pink;
+   color: black;
+   padding: inherit;
+   text-align: center;
+   border-radius: 10px;
+   width: 200px;
+   height: 40px;
+   overflow: hidden;
+   margin: auto;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  border: 1px black solid;
+  box-shadow: 5px 10px 8px #888888;
+  margin: auto;
+  padding: 8px 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.guess:hover {
+   background:lighten(darkblue, 20%);
+   margin:4px;
+   padding:14px 28px;
+   webkit-transition: all 200ms ease;
+}
+
+input {
+  width: 35px;
+  height: 55px;
+}
+
+h1 {
+  font-size: 5vw;
+  font-stretch: extra-expanded;
+  font-style: normal;
+  font-weight: 700px;
+  overflow: hidden;
+  margin: 20px;
+  display: inline-block;
+}
+
+
+.image {
+  width: 100%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  justify-content: center;
+}
+
+h3, h4 {
+  font-size: 2vw;
+}
+
+@media (max-width: 500px)
+
+.blue-box {
+   background-color: pink;
+   padding: 50px;
+   border-radius: 10px;
+   text-align: center;
+   width: 20%;
+   height: 40%;
+ }
